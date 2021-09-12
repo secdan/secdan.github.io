@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title></title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Sat, 11 Sep 2021 01:06:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
+	<title></title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Free Kali Linux book – Kali Linux Revealed</title>
+		<link>/free-kali-linux-book-kali-linux-revealed/</link>
+					<comments>/free-kali-linux-book-kali-linux-revealed/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Wed, 28 Feb 2018 01:03:00 +0000</pubDate>
+				<category><![CDATA[Learning]]></category>
+		<guid isPermaLink="false">/?p=27</guid>
+
+					<description><![CDATA[I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><img loading="lazy" width="208" height="120" class="wp-image-18" style="width: 150px;" src="/wp-content/uploads/2021/09/kali.png" alt="">I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that they offer that this material is targeted for, I don’t know of the market value / ROI of that cert, but the course and book are free and no reason not to check it out. </p>
+
+
+
+<p><a href="https://www.kali.org/download-kali-linux-revealed-book/">https://www.kali.org/download-kali-linux-revealed-book/</a></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/free-kali-linux-book-kali-linux-revealed/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

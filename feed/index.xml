@@ -9,10 +9,10 @@
 
 <channel>
 	<title></title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="http://secdan.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://secdan.com/</link>
 	<description></description>
-	<lastBuildDate>Sat, 11 Sep 2021 01:06:49 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 12 Sep 2021 20:57:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,25 +21,25 @@
 	<generator>https://wordpress.org/?v=5.8.1</generator>
 
 <image>
-	<url>/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
+	<url>http://secdan.com/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
 	<title></title>
-	<link>/</link>
+	<link>http://secdan.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Free Kali Linux book – Kali Linux Revealed</title>
-		<link>/free-kali-linux-book-kali-linux-revealed/</link>
-					<comments>/free-kali-linux-book-kali-linux-revealed/#respond</comments>
+		<link>http://secdan.com/free-kali-linux-book-kali-linux-revealed/</link>
+					<comments>http://secdan.com/free-kali-linux-book-kali-linux-revealed/#respond</comments>
 		
 		<dc:creator><![CDATA[Daniel]]></dc:creator>
 		<pubDate>Wed, 28 Feb 2018 01:03:00 +0000</pubDate>
 				<category><![CDATA[Learning]]></category>
-		<guid isPermaLink="false">/?p=27</guid>
+		<guid isPermaLink="false">http://secdan.com/?p=27</guid>
 
 					<description><![CDATA[I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p><img loading="lazy" width="208" height="120" class="wp-image-18" style="width: 150px;" src="/wp-content/uploads/2021/09/kali.png" alt="">I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that they offer that this material is targeted for, I don’t know of the market value / ROI of that cert, but the course and book are free and no reason not to check it out. </p>
+<p><img loading="lazy" width="208" height="120" class="wp-image-18" style="width: 150px;" src="http://secdan.com/wp-content/uploads/2021/09/kali.png" alt="">I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that they offer that this material is targeted for, I don’t know of the market value / ROI of that cert, but the course and book are free and no reason not to check it out. </p>
 
 
 
@@ -50,7 +50,51 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/free-kali-linux-book-kali-linux-revealed/feed/</wfw:commentRss>
+					<wfw:commentRss>http://secdan.com/free-kali-linux-book-kali-linux-revealed/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Should C levels get special treatment?</title>
+		<link>http://secdan.com/should-c-levels-get-special-treatment/</link>
+					<comments>http://secdan.com/should-c-levels-get-special-treatment/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Fri, 02 Feb 2018 20:52:00 +0000</pubDate>
+				<category><![CDATA[Rants]]></category>
+		<guid isPermaLink="false">http://secdan.com/?p=30</guid>
+
+					<description><![CDATA[I’ll get this out of the way first, from a professional employment standpoint, absolutely. If you get an email from the CEO, then sure, anyone would expect you to pay more attention than normal.  But, I’m talking strictly from a security standpoint. I’m sure we’ve all heard the stories about small companies where management feels [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I’ll get this out of the way first, from a professional employment standpoint, absolutely. If you get an email from the CEO, then sure, anyone would expect you to pay more attention than normal. </p>
+
+
+
+<p>But, I’m talking strictly from a security standpoint. I’m sure we’ve all heard the stories about small companies where management feels they need domain admin access just because they are “the boss”.  When your IT department is two people, then you might not be able to help situations like that.&nbsp;</p>
+
+
+
+<p>This came to me the other day when my team was doing phishing testing and USB drops. First came the phishing, we targeted a few different departments and they were fair game. Typical stuff, HR and finance in this case. One campaign about benefits and another about due invoices, things people have been trained on and something that I would hope for a&nbsp;fairly low&nbsp;click rate and most of them reported to the help desk.&nbsp;</p>
+
+
+
+<p>This prompted a discussion on spear phishing a few of the executives. There is plenty of public data available on most of them that you could create an extremely convincing phishing email. But, we were told they might be upset if we did that.&nbsp;</p>
+
+
+
+<p>The same situation happened with USB drops. We could leave them&nbsp;anywhere, but&nbsp;putting them into an executive’s office was off limits. The strange part is that policy didn’t come from the executives themselves, but from the management below them who felt they would be upset.&nbsp;</p>
+
+
+
+<p>This brings up a problem. The people that might be most targeted are also the people exempt from training and testing, because the people below them fear the consequences of making the top level executives follow the same requirements of everyone else. They shouldn’t be exempt, they should get as much, if not more training, and testing than the standard user base. If an attacker is going to target you, especially if you’re a bigger target, then you shouldn’t get special treatment and a pass.&nbsp;</p>
+
+
+
+<p>/rant&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://secdan.com/should-c-levels-get-special-treatment/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

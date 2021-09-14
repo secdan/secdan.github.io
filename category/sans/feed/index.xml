@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>Daniel</title>
-	<atom:link href="http://secdan.com/author/daniel/feed/" rel="self" type="application/rss+xml" />
+	<title>SANS</title>
+	<atom:link href="http://secdan.com/category/sans/feed/" rel="self" type="application/rss+xml" />
 	<link>http://secdan.com/</link>
 	<description></description>
 	<lastBuildDate>Tue, 14 Sep 2021 00:22:07 +0000</lastBuildDate>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>http://secdan.com/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
-	<title>Daniel</title>
+	<title>SANS</title>
 	<link>http://secdan.com/</link>
 	<width>32</width>
 	<height>32</height>
@@ -116,134 +116,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>There isn&#8217;t enough time in the day!</title>
-		<link>http://secdan.com/there-isnt-enough-time-in-the-day/</link>
-					<comments>http://secdan.com/there-isnt-enough-time-in-the-day/#respond</comments>
-		
-		<dc:creator><![CDATA[Daniel]]></dc:creator>
-		<pubDate>Wed, 04 Apr 2018 00:04:00 +0000</pubDate>
-				<category><![CDATA[Learning]]></category>
-		<guid isPermaLink="false">http://secdan.com/?p=40</guid>
-
-					<description><![CDATA[Many of us are drawn to security because it changes all the time and there is never a shortage of new findings. The upside, is also the downside, it changes all the time. I know I read something a few years ago that someone searched all the top&#160;infosec&#160;news sources and&#160;came to the conclusion&#160;that you could [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Many of us are drawn to security because it changes all the time and there is never a shortage of new findings. The upside, is also the downside, it changes all the time. I know I read something a few years ago that someone searched all the top&nbsp;infosec&nbsp;news sources and&nbsp;came to the conclusion&nbsp;that you could read all of them, every day, and you would literally not be enough hours in the day to do it. I can’t find the reference but even if it’s just an urban myth, I doubt any of us have the time to know everything, about everything, all the time.&nbsp;</p>
-
-
-
-<p>I know most of us aren’t crazy about the idea of named vulnerabilities, logos, website and general malware marketing. But, I doubt it’s just me, it does help get a lot more traction in getting things fixed at work. Telling another group their systems are vulnerable to CVE-2018-X might be ignored, but when their manager hears they are vulnerable to&nbsp;Spectre/Heartbleed/etc&nbsp;that they’ve heard about on the news, well now that sounds important and they’re willing to&nbsp;take action.&nbsp;</p>
-
-
-
-<p>A few years&nbsp;ago&nbsp;I was interviewing and got down to the final stage. A week before Shellshock was all over the news (see, malware marketing!). I sat&nbsp;down&nbsp;and the hiring manager said, “soo… anything interesting related to security that you’ve heard about lately?” I told him about what was going on and he breathed a huge sigh of relief. He shared with me that every other finalist they brought in didn’t have a clue what he was talking about. I’m not referring to just the nerd news either, this was all over major news networks and these people were all already working in&nbsp;infosec. The hiring manager felt that if the other candidates didn’t bother learning about big public security news they surely weren’t going to bother keeping informed if they worked there.&nbsp;</p>
-
-
-
-<p>I’ve asked this sort of question of every potential hire for our security department. I’m always surprised by how many people say they don’t bother following any websites, twitter or email lists at all. They just wait for a vendor to email them if there is a vulnerability, which seems crazy to me. I know not everyone is going to be a con presenter, but at least show interest in your profession.&nbsp;</p>
-
-
-
-<p>With that in mind, I’m always looking for ways to consolidate the news / alerts parts of my day. I do enjoy my work and check these things for fun too but like I said earlier, there are so many free hours in the day. Here are some of the ways that I do that:&nbsp;</p>
-
-
-
-<p>Podcasts – I have an old iPod in the car loaded with security podcasts. I know most people would probably just use their phone, it’s mostly habit and it’s always charged, I’ll get around to being more modern with that eventually. (Edit &#8211; shortly after this I went to using my phone like everyone else in the world) Every commute back and forth to work or just driving around town I have some nerdy learning sort of broadcast in the background. The specific ones are personal preference, but I typically get an extra hour+ a day of security info on commuting days. There are general security podcasts (Security Weekly has a few different flavors now and frequently has SANS instructors on there, very interesting), Offensive specific, social engineering specific, almost anything you might be interested in there is probably someone talking about it that you can learn from. </p>
-
-
-
-<p>Twitter – I’m a twitter lurker, I admit I almost never really interact there except for liking/sharing posts or emailing myself links to dig into later. But, you can bet when new things are breaking that a ton of security folks that I follow all start retweeting and it’s not long before it’s a notification on my phone.&nbsp;</p>
-
-
-
-<p>Websites / Forums – There are a ton of security news websites, this can be like a black hole. I highly suggest a news RSS reader, like&nbsp;feedly, you can add any site that interests you and check them all from one spot. That doesn’t exactly cut down the results but at least it centralizes it. For forums, I read a few but special shout out to reddit. I’ve seen many security topics break there, with great interaction from the readers, there is lots of junk there but if you focus on technical subreddits it’s very solid and totally worth your time.&nbsp;</p>
-
-
-
-<p>Email – I know getting news via email sounds weird if you’re thinking breaking news, but vendor announcements are typically done that way. I also get a daily email from the&nbsp;CyberWire, they consolidate a lot of the top security news stories for the day and give a quick couple paragraph breakdown for the overall news and links to all the trending stories. On days when I’m head down busy I still try to make time at the end of the day to scan that email to see if anything crazy happened that I missed. Highly recommended.&nbsp;</p>
-
-
-
-<p>So, sadly I can’t make the day longer than 24 hours, but at least try to use the time you do have productively.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>http://secdan.com/there-isnt-enough-time-in-the-day/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Free Kali Linux book – Kali Linux Revealed</title>
-		<link>http://secdan.com/free-kali-linux-book-kali-linux-revealed/</link>
-					<comments>http://secdan.com/free-kali-linux-book-kali-linux-revealed/#respond</comments>
-		
-		<dc:creator><![CDATA[Daniel]]></dc:creator>
-		<pubDate>Wed, 28 Feb 2018 01:03:00 +0000</pubDate>
-				<category><![CDATA[Learning]]></category>
-		<guid isPermaLink="false">http://secdan.com/?p=27</guid>
-
-					<description><![CDATA[I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p><img loading="lazy" width="208" height="120" class="wp-image-18" style="width: 150px;" src="http://secdan.com/wp-content/uploads/2021/09/kali.png" alt="">I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that they offer that this material is targeted for, I don’t know of the market value / ROI of that cert, but the course and book are free and no reason not to check it out. </p>
-
-
-
-<p><a href="https://www.kali.org/download-kali-linux-revealed-book/">https://www.kali.org/download-kali-linux-revealed-book/</a></p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>http://secdan.com/free-kali-linux-book-kali-linux-revealed/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Should C levels get special treatment?</title>
-		<link>http://secdan.com/should-c-levels-get-special-treatment/</link>
-					<comments>http://secdan.com/should-c-levels-get-special-treatment/#respond</comments>
-		
-		<dc:creator><![CDATA[Daniel]]></dc:creator>
-		<pubDate>Fri, 02 Feb 2018 20:52:00 +0000</pubDate>
-				<category><![CDATA[Rants]]></category>
-		<guid isPermaLink="false">http://secdan.com/?p=30</guid>
-
-					<description><![CDATA[I’ll get this out of the way first, from a professional employment standpoint, absolutely. If you get an email from the CEO, then sure, anyone would expect you to pay more attention than normal.  But, I’m talking strictly from a security standpoint. I’m sure we’ve all heard the stories about small companies where management feels [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>I’ll get this out of the way first, from a professional employment standpoint, absolutely. If you get an email from the CEO, then sure, anyone would expect you to pay more attention than normal. </p>
-
-
-
-<p>But, I’m talking strictly from a security standpoint. I’m sure we’ve all heard the stories about small companies where management feels they need domain admin access just because they are “the boss”.  When your IT department is two people, then you might not be able to help situations like that.&nbsp;</p>
-
-
-
-<p>This came to me the other day when my team was doing phishing testing and USB drops. First came the phishing, we targeted a few different departments and they were fair game. Typical stuff, HR and finance in this case. One campaign about benefits and another about due invoices, things people have been trained on and something that I would hope for a&nbsp;fairly low&nbsp;click rate and most of them reported to the help desk.&nbsp;</p>
-
-
-
-<p>This prompted a discussion on spear phishing a few of the executives. There is plenty of public data available on most of them that you could create an extremely convincing phishing email. But, we were told they might be upset if we did that.&nbsp;</p>
-
-
-
-<p>The same situation happened with USB drops. We could leave them&nbsp;anywhere, but&nbsp;putting them into an executive’s office was off limits. The strange part is that policy didn’t come from the executives themselves, but from the management below them who felt they would be upset.&nbsp;</p>
-
-
-
-<p>This brings up a problem. The people that might be most targeted are also the people exempt from training and testing, because the people below them fear the consequences of making the top level executives follow the same requirements of everyone else. They shouldn’t be exempt, they should get as much, if not more training, and testing than the standard user base. If an attacker is going to target you, especially if you’re a bigger target, then you shouldn’t get special treatment and a pass.&nbsp;</p>
-
-
-
-<p>/rant&nbsp;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>http://secdan.com/should-c-levels-get-special-treatment/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

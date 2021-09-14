@@ -12,7 +12,7 @@
 	<atom:link href="http://secdan.com/feed/" rel="self" type="application/rss+xml" />
 	<link>http://secdan.com/</link>
 	<description></description>
-	<lastBuildDate>Sun, 12 Sep 2021 20:57:53 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 Sep 2021 00:22:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,155 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>SANS SEC504 &#8211; GCIH &#8211; Class and Work Study Review</title>
+		<link>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/</link>
+					<comments>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Thu, 27 Sep 2018 00:21:00 +0000</pubDate>
+				<category><![CDATA[Learning]]></category>
+		<category><![CDATA[SANS]]></category>
+		<guid isPermaLink="false">http://secdan.com/?p=47</guid>
+
+					<description><![CDATA[I haven&#8217;t updated in a while, but I wanted to focus on knocking out the GCIH after the course and had a ton of other things going on, so, here you go. I&#8217;ll try to make up for it with an annoying amount of detail. The SANS SEC504 &#8211;&#160;Hacker Tools, Techniques, Exploits, and Incident Handling [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I haven&#8217;t updated in a while, but I wanted to focus on knocking out the GCIH after the course and had a ton of other things going on, so, here you go. I&#8217;ll try to make up for it with an annoying amount of detail.</p>
+
+
+
+<p>The SANS SEC504 &#8211;&nbsp;Hacker Tools, Techniques, Exploits, and Incident Handling (https://www.sans.org/course/hacker-techniques-exploits-incident-handling) is the most recent SANS course I&#8217;ve taken, and the first time I&#8217;ve taken one in person. Drinking from the firehose in person is very different from watching the OnDemand at home, overall great experience.</p>
+
+
+
+<p>I&#8217;m in no way a stranger to different types of education. I&#8217;ve done a bunch of classes in different topics, have a BS, a few classes into an MS, have done a pile of self-study certifications, and nothing compared to the experience of a 6 days on-site SANS course. Let&#8217;s just say I slept well that week!</p>
+
+
+
+<p>Taking a few steps back, I work in infosec and my department is not exactly what I would consider well-staffed. Because of that, I (along with many others in my field I&#8217;m sure) have to wear many different hats. Incident response is just one of the tasks that is on my plate and what I&#8217;ve done so far has been just what seemed like a logical process. I&#8217;ve heard John Strand mention the PICERLL model many times on podcasts but didn&#8217;t spend a lot of time digging into it otherwise. Most of my experience is on the blue team side so this class was right down my alley!</p>
+
+
+
+<p>My current workplace is pretty free with training time, but, training funds&#8230; not so much. Because of that I&#8217;ve been applying to the SANS Work Study program (https://www.sans.org/work-study/) and this was the first time the event date, class and location all worked together and I was all in. For those not familiar with the program, you essentially agree to work the live event as a facilitator in exchange for a huge discount on the training and exam. You show up a day or so early, do a bunch of setup, bundle together training materials, get promotional stuff ready. But overall, it was nice just hanging out with people in the field, talking about nerdy infosec stuff and everyone understands you! I work in a small department, that&#8217;s a big deal to me, one of the other facilitators called it a free therapy session which was funny but pretty accurate. You can gopher whatever the instructor needs during the day and help students with some issues but I had a smaller class so there weren&#8217;t too many technical issues.</p>
+
+
+
+<p>I really enjoyed the behind-the-scenes aspect of doing Work Study. One interesting thing that I realized, the surveys are taken very seriously. For anyone who has been to an event, you know you get them for every day of class, every SANS@Night talk, etc, and I just sort of assumed they were all tossed in a box for some later date. Nope, the quality control those is serious. The facilitators take every one, sort them by scores, run them through a spreadsheet, scan every one. Then, every comment is given directly to the instructors after every class and they all go straight to SANS corporate as well. I&#8217;ve never seen a company take then so seriously. But, as someone else at the event mentioned, &#8220;when you pay this much for the training, you want to feel like you are getting the best experience.&#8221; So yes, SANS training isn&#8217;t cheap, at all, but if you can swing it, or are lucky enough to get picked for Work Study, then the quality of the whole event was fantastic.</p>
+
+
+
+<p>My 504 class was taught by Kevin Fiscus (https://www.sans.org/instructors/kevin-fiscus), he was a great instructor. It was refreshing to be able to walk up after class and ask about nearly anything security related and to get a useful answer. It shows that the instructors don&#8217;t only know to teach their one course but have a well rounded background and also work in the field. I&#8217;ve taken vendor product training (I&#8217;m looking at you, Cisco!) where the instructor is teaching only to the lab, but even questions like &#8220;well I want to set it up like X&#8221; or &#8220;What if I use the other option on the dashboard instead?&#8221; were usually met with answers telling you to just stick to the lab and it&#8217;ll go fine. As an added bonus for doing Work Study, I also had the OnDemand access included, which was taught by John Strand, the course creator, and it was very helpful to not only get two perspectives on certain topics but be able to refresh on certain topics while creating my test index at home later.</p>
+
+
+
+<p>The first day we covered incident response. It seems like a small portion of the class but phases of IR are covered as part of each of the other days through the week by learning how to recognize the tools that attackers will use when you&#8217;re doing IR. This portion of the course covers many areas that many people likely forget in the preparation phase, other departments that you need to involve and even interfacing with law enforcement. One thing they really hit home is the need for management support, this might sound obvious but from a tech side, we see things and might think &#8220;shut it down!&#8221; but in a big corp, that&#8217;s an awesome way to get fired, whether you made the right call or not.</p>
+
+
+
+<p>Each day had a number of different labs. Mixed feedback on &#8220;not enough labs!&#8221; to &#8220;labs are awesome!&#8221; came back, so I guess somewhere right around the correct amount of labs. All the full labs come on a USB stick so even if you really break your local environment, you can just extract them again and start fresh. the future labs don&#8217;t rely on the past ones either so restoring is no big deal. I think we&#8217;ve all played around in labs and broken something and then realized we had to rebuild half an AD infrastructure just to run the next command. Pointing out the quality control again, but all the labs just work. I know they&#8217;re <em>supposed</em>&nbsp;to work, but, too many times labs aren&#8217;t perfect. I imagine most people in this field have followed different tutorials, it always seems like the tool has updated, or you&#8217;re missing a dependency, or an exploit doesn&#8217;t have the same options as the screenshots you&#8217;re looking at. None of that going on here. Turns out that&#8217;s why they don&#8217;t use Kali Linux in the image but instead build their own Linux VM loaded with the specific tools and versions that are used in the labs. Kali might update and suddenly you have 30% of the class with essentially a broken lab and now the class is behind.</p>
+
+
+
+<p>The one lab we had as part of day 1, but we got to on the morning of day 2, wasn&#8217;t what was we typically think of as a lab. It was a table top exercise. The timing was perfect as I was tasked with doing a table top exercise at work and had already been researching something different for the exercise this year. I had come across the idea a few weeks before the class (https://www.blackhillsinfosec.com/dungeons-dragons-meet-cubicles-compromises/) and thought it sounded fun and different but didn&#8217;t imagine doing it in my workplace. So, we did a mock table top in class using that exact same methodology with a bunch of mostly strangers. We didn&#8217;t have a 20 sided die but we used a phone app to do a pseudo-random roll for 1-20. Turns out it was really fun! The idea was that in reality, not everything works perfectly every time without hiccup, because that&#8217;s who real life works.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright is-resized"><img loading="lazy" src="https://secdanhome.files.wordpress.com/2018/09/img_20180924_075951-1.jpg" alt="" class="wp-image-40" width="456" height="423"/></figure></div>
+
+
+
+<p>After that exercise I changed my own table top plan at work and picked up a 55mm die (nothing for scale) that was nice and big so everyone in the room could see it. We had a ransomware exercise and it was great to answer, &#8220;nope, I rolled, you tried to pay it, and failed, so what do we do next?&#8221; I&#8217;m not a D&amp;D guy so I discounted the idea a bit at first but in actual practice it&#8217;s a great way to inject some reality and force people to find workarounds in real time.</p>
+
+
+
+<p>The remaining four days covered attacker tools and techniques specifically. Tons of tools, some I&#8217;ve used, some I&#8217;ve never even heard of but all were very cool to see. We followed the whole attack lifecycle from OSINT, recon, scanning, all the way to exploitation and covering your tracks. Again, the labs are really helpful here, you get copies of all of them including video walkthroughs so doing them again at home helps to learn the tools and for test prep.</p>
+
+
+
+<p>For day 6, the CTF, that was really a lot of fun. I&#8217;ve done some simple vulnerable VMs before and other labs but never really against someone else in real time. No, I won&#8217;t give tips outside of what I was told which was &#8220;don&#8217;t try to overhack&#8221; aka, don&#8217;t ignore the simple things and try to over-engineer something crazy when there are far faster and easier ways to go about it. Also, bring food, don&#8217;t be the teammate who decides to go out to lunch in the middle of the competition. And, SANS will email and remind you, but if you don&#8217;t have an Ethernet port, bring an adapter with you, or you can&#8217;t participate.</p>
+
+
+
+<p>Day 7-8, as our instructor suggested, go home and unplug. Depending on your past experience level you just took in a ton of information and have earned a few days of being lazy!</p>
+
+
+
+<p>Now, for the test prep itself. Everyone talks about the index, and the importance is not something you want to ignore. Sure, you are supposed to actually know the material going in, but the depth of some of the questions are definitely something you could be looking up as part of your regular job, the same holds true for the index. I followed Leslie Carhart&#8217;s guide (https://tisiphone.net/2015/08/18/giac-testing/) for index creation, this is just one of many great resources on her blog. The tabs in my books weren&#8217;t such a mess before or during the exam but after passing I stuffed them all back into my bag and happily ate entirely too much and didn&#8217;t unpack them for a few days!</p>
+
+
+
+<p>I often see people online asking how long the index is supposed to be, that&#8217;s 100% up to what you need on there and totally personal to your learning style. I saw some people say theirs was 80 pages, others said they had five. Figure out what you need to reference, and the practice tests will help iron out out well your plan works.</p>
+
+
+
+<p>I took the first practice exam with made a ton of changes to my index afterwards. I had a feeling when I was creating it that I&#8217;d be looking up terms in different ways, and it was confirmed as soon as I started trying to use it. I made a few more tweaks after the second exam. After all the colors and tabs, I didn&#8217;t end up really referring to them at all, I&#8217;d just grab the right book, then go to the page, but everyone has a different method. The testing center was at a local community college and they gave me a big corner cube with a wrap around desk where I could spread out the books and whiteboard, I couldn&#8217;t have been happier with the setup.</p>
+
+
+
+<p>Overall it was a really positive experience. Lots of work but totally worthwhile, if your workplace is understanding (they should be, you&#8217;re getting training to do a better job!) and you have the time and the funds, totally recommended.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>There isn&#8217;t enough time in the day!</title>
+		<link>http://secdan.com/there-isnt-enough-time-in-the-day/</link>
+					<comments>http://secdan.com/there-isnt-enough-time-in-the-day/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Wed, 04 Apr 2018 00:04:00 +0000</pubDate>
+				<category><![CDATA[Learning]]></category>
+		<guid isPermaLink="false">http://secdan.com/?p=40</guid>
+
+					<description><![CDATA[Many of us are drawn to security because it changes all the time and there is never a shortage of new findings. The upside, is also the downside, it changes all the time. I know I read something a few years ago that someone searched all the top&#160;infosec&#160;news sources and&#160;came to the conclusion&#160;that you could [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Many of us are drawn to security because it changes all the time and there is never a shortage of new findings. The upside, is also the downside, it changes all the time. I know I read something a few years ago that someone searched all the top&nbsp;infosec&nbsp;news sources and&nbsp;came to the conclusion&nbsp;that you could read all of them, every day, and you would literally not be enough hours in the day to do it. I can’t find the reference but even if it’s just an urban myth, I doubt any of us have the time to know everything, about everything, all the time.&nbsp;</p>
+
+
+
+<p>I know most of us aren’t crazy about the idea of named vulnerabilities, logos, website and general malware marketing. But, I doubt it’s just me, it does help get a lot more traction in getting things fixed at work. Telling another group their systems are vulnerable to CVE-2018-X might be ignored, but when their manager hears they are vulnerable to&nbsp;Spectre/Heartbleed/etc&nbsp;that they’ve heard about on the news, well now that sounds important and they’re willing to&nbsp;take action.&nbsp;</p>
+
+
+
+<p>A few years&nbsp;ago&nbsp;I was interviewing and got down to the final stage. A week before Shellshock was all over the news (see, malware marketing!). I sat&nbsp;down&nbsp;and the hiring manager said, “soo… anything interesting related to security that you’ve heard about lately?” I told him about what was going on and he breathed a huge sigh of relief. He shared with me that every other finalist they brought in didn’t have a clue what he was talking about. I’m not referring to just the nerd news either, this was all over major news networks and these people were all already working in&nbsp;infosec. The hiring manager felt that if the other candidates didn’t bother learning about big public security news they surely weren’t going to bother keeping informed if they worked there.&nbsp;</p>
+
+
+
+<p>I’ve asked this sort of question of every potential hire for our security department. I’m always surprised by how many people say they don’t bother following any websites, twitter or email lists at all. They just wait for a vendor to email them if there is a vulnerability, which seems crazy to me. I know not everyone is going to be a con presenter, but at least show interest in your profession.&nbsp;</p>
+
+
+
+<p>With that in mind, I’m always looking for ways to consolidate the news / alerts parts of my day. I do enjoy my work and check these things for fun too but like I said earlier, there are so many free hours in the day. Here are some of the ways that I do that:&nbsp;</p>
+
+
+
+<p>Podcasts – I have an old iPod in the car loaded with security podcasts. I know most people would probably just use their phone, it’s mostly habit and it’s always charged, I’ll get around to being more modern with that eventually. (Edit &#8211; shortly after this I went to using my phone like everyone else in the world) Every commute back and forth to work or just driving around town I have some nerdy learning sort of broadcast in the background. The specific ones are personal preference, but I typically get an extra hour+ a day of security info on commuting days. There are general security podcasts (Security Weekly has a few different flavors now and frequently has SANS instructors on there, very interesting), Offensive specific, social engineering specific, almost anything you might be interested in there is probably someone talking about it that you can learn from. </p>
+
+
+
+<p>Twitter – I’m a twitter lurker, I admit I almost never really interact there except for liking/sharing posts or emailing myself links to dig into later. But, you can bet when new things are breaking that a ton of security folks that I follow all start retweeting and it’s not long before it’s a notification on my phone.&nbsp;</p>
+
+
+
+<p>Websites / Forums – There are a ton of security news websites, this can be like a black hole. I highly suggest a news RSS reader, like&nbsp;feedly, you can add any site that interests you and check them all from one spot. That doesn’t exactly cut down the results but at least it centralizes it. For forums, I read a few but special shout out to reddit. I’ve seen many security topics break there, with great interaction from the readers, there is lots of junk there but if you focus on technical subreddits it’s very solid and totally worth your time.&nbsp;</p>
+
+
+
+<p>Email – I know getting news via email sounds weird if you’re thinking breaking news, but vendor announcements are typically done that way. I also get a daily email from the&nbsp;CyberWire, they consolidate a lot of the top security news stories for the day and give a quick couple paragraph breakdown for the overall news and links to all the trending stories. On days when I’m head down busy I still try to make time at the end of the day to scan that email to see if anything crazy happened that I missed. Highly recommended.&nbsp;</p>
+
+
+
+<p>So, sadly I can’t make the day longer than 24 hours, but at least try to use the time you do have productively.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://secdan.com/there-isnt-enough-time-in-the-day/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Free Kali Linux book – Kali Linux Revealed</title>
 		<link>http://secdan.com/free-kali-linux-book-kali-linux-revealed/</link>
 					<comments>http://secdan.com/free-kali-linux-book-kali-linux-revealed/#respond</comments>

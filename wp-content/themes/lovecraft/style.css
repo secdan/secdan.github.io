@@ -491,7 +491,7 @@ select {
 }
 
 select {
-	background-image: url( http://secdan.com/wp-content/themes/lovecraft/assets/images/icons/chevron-down-black.svg);
+	background-image: url( https://secdan.com/wp-content/themes/lovecraft/assets/images/icons/chevron-down-black.svg);
 	background-position: calc( 100% - 20px ) center;
 	background-repeat: no-repeat;
 	background-size: 15px 9px;

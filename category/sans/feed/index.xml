@@ -9,10 +9,10 @@
 
 <channel>
 	<title>SANS</title>
-	<atom:link href="http://secdan.com/category/sans/feed/" rel="self" type="application/rss+xml" />
-	<link>http://secdan.com/</link>
+	<atom:link href="https://secdan.com/category/sans/feed/" rel="self" type="application/rss+xml" />
+	<link>https://secdan.com/</link>
 	<description></description>
-	<lastBuildDate>Tue, 14 Sep 2021 00:22:07 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Sep 2021 00:22:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,22 +21,105 @@
 	<generator>https://wordpress.org/?v=5.8.1</generator>
 
 <image>
-	<url>http://secdan.com/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
+	<url>https://secdan.com/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
 	<title>SANS</title>
-	<link>http://secdan.com/</link>
+	<link>https://secdan.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
+		<title>SANS SEC460 &#8211; Course Review &#8211; Enterprise Threat and Vulnerability Assessment</title>
+		<link>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/</link>
+					<comments>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 00:20:00 +0000</pubDate>
+				<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[SANS]]></category>
+		<guid isPermaLink="false">https://secdan.com/?p=53</guid>
+
+					<description><![CDATA[I recently was able to take the SANS SEC460 (https://www.sans.org/course/enterprise-threat-vulnerability-assessment) course focused on Threat and Vulnerability Assessment. This is a newer course compared to most of the others that SANS offers so I didn&#8217;t find any actual reviews beforehand other than a friend that did it last year, I figured I&#8217;d throw my opinion out [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I recently was able to take the SANS SEC460 (<a href="https://www.sans.org/course/enterprise-threat-vulnerability-assessment">https://www.sans.org/course/enterprise-threat-vulnerability-assessment</a>) course focused on Threat and Vulnerability Assessment. This is a newer course compared to most of the others that SANS offers so I didn&#8217;t find any actual reviews beforehand other than a friend that did it last year, I figured I&#8217;d throw my opinion out there for what it&#8217;s worth. My workplace has had a slower start in the whole VA space, part of the downside of starting a security department from scratch. We were able to do what was required for compliance and passing audits, but as most people who dig deeper know, there is always a lot more going on than just that. And, as they say in the course, &#8220;if all you&#8217;re doing is running scans and handing over reports you&#8217;re missing most of the vulnerability management process!&#8221;. We already possessed a lot of the tools, but didn&#8217;t really have a solid plan or framework to glue it all together and that was my hope for the course.</p>
+
+
+
+<p>I was able to do this course through the SANS Work Study program (<a href="https://www.sans.org/work-study/">https://www.sans.org/work-study/</a>) and as you can see from my previous experience doing the SEC504 class (<a href="https://secdan.com/2018/09/27/sans-sec504-gcih-class-and-work-study-review/">https://secdan.com/2018/09/27/sans-sec504-gcih-class-and-work-study-review/</a>) I highly recommend this if you can work the schedule and it fits your personality. For me, I love it. The staff was all really friendly and helpful. One of the other facilitators started a chat group while we were there so we were all able to coordinate meals and hanging out which made for a great time and lots of networking too. Overall very positive experience and I look forward to being able to do it again. This course was a reasonable drive away, nice to not have to juggle plane schedules and such, a two hour drive in the morning with no traffic and a bunch of podcasts, not bad at all.</p>
+
+
+
+<p>The course was taught by one of the course authors, Adrien de Beaupre (<a href="https://www.sans.org/instructors/adrien-de-beaupre">https://www.sans.org/instructors/adrien-de-beaupre</a>) so there was clearly nothing lost in translation. It&#8217;s a newer course so there isn&#8217;t an OnDemand course for it yet but they were recording that during my session so I&#8217;m sure so of my goofy questions probably make it into the audio somewhere. Adrien describes himself as &#8220;the sarcastic Canadian&#8221;, which works with me. Whoever said sarcasm is the lowest form of humor can.. Well, let&#8217;s say I don&#8217;t agree. Adrien has a ton of real world experience, as I would expect from any SANS instructor, so any questions anyone had along the way here handled easily.</p>
+
+
+
+<p>The 460 course is somewhere around a light purple team course. You need to know how to find some holes, and how to fix them. Not as deeply technical as some of the higher level courses that SANS offers but the coursework is fitting for that type of job role. Vulnerability management always seems to fall in different laps ranging anywhere from an auditor asking probing questions to&nbsp; someone else exploiting vulnerabilities to validate their findings. The course gives a good breakdown of the whole process, if you&#8217;re expecting just a class on scanning, then you might be better off with something from your scanner vendor, but if you want to learn the whole process, this one is much more fitting.</p>
+
+
+
+<p>SANS has a tendency to avoid focusing on specific vendor tools, because not everyone uses the same tools or can even afford to pay for them. Most management teams wouldn&#8217;t be happy to find you out paid for a course and then you get home and can&#8217;t do anything because the specific tool is out of reach. That logic holds pretty sound here, we used many different tools for scanning and validation from manual checks, to short powershell scripts and some open source tools. The two areas we did use commercial tools were the network and web app scanners. As the instructor said, (obviously paraphrasing) &#8220;we could have had you used OpenVAS, it&#8217;s free, but has everyone really tried scanning 10,000 systems with OpenVAS? You don&#8217;t want to.&#8221; So they settled on Rapid7 Nexpose. I had a bit of an advantage here as I&#8217;ve been using the same tool for years, but at the basic level it&#8217;s also not overly complicated so the instruction that everyone else got didn&#8217;t seem to hold them back at all. For the web application scanning we used Acunetix, I use a different tool at work, but it&#8217;s a web GUI and was pretty straightforward. The bulk of the work in this course is around infrastructure scanning, not web apps. I know there was a question of that during the class, the instruction mentioned they&#8217;re working on a web app version but that course isn&#8217;t available yet. For a lot of the process that you learn, it should be able to be applied to any type of system so it&#8217;s not at all wasted knowledge either way.</p>
+
+
+
+<p>The days were laid out logically with the different steps of the whole process, starting with planning and threat modeling all the way through remediation and reporting.</p>
+
+
+
+<p>A few ideas really stuck out to me during the course, obvious once you hear them but when you have your company blinders on you tend to forget sometimes:</p>
+
+
+
+<ul><li>If you don&#8217;t know have your assets classified, and know what your most high risk systems are, then everything is critical. If you can&#8217;t tell me how important that server is, then I&#8217;m just going to have to safely assume worst case and everything is critical.</li><li>I like to (half-jokingly!) say &#8220;culture&#8221; is like a four letter word sometime. The idea of &#8220;we always did it that way&#8221; can make things like changing big processes and mindsets really complicated. There is definitely a manner in how to best prepare the news and reports of your findings to the different levels of employees. Sr management doesn&#8217;t care about your 1000 page scan report, they want a chart that shows things are getting better, and why. And if they aren&#8217;t, what your plan is to make them better and what help you need to fix that.</li><li>&nbsp;Most people don&#8217;t like to hear their baby is ugly, in the same manner most departments don&#8217;t want to hear the process they&#8217;ve been following is badly flawed. Because of that they will look for anything (ANYTHING!) that is wrong in your report to discount everything you&#8217;re saying. Validation is incredibly important. I once found a subnet that had been ignored for a long time, I scanned it and dropped a report of thousands of critical vulnerabilities on the server team. They checked, found one that was possibly a false positive, they immediately discounted everything in the report, and for quite a few future reports too. My thought process was along the lines of … what even 80% of it is wrong, so you only have hundreds of really terrible things that are publicly accessible?? Their translation was &#8220;we found a mistake, your tool is garbage&#8221;. Don&#8217;t be the boy that cried wolf, some things are going to be missed, but do some basic checks to make sure you are providing valid data.</li></ul>
+
+
+
+<p>On the end of the 5th day we had much lighter lab day and took the last part of the day to get familiar with the NetWars engine. I learned a few things, don&#8217;t rush, wrong answers because you moved too quickly don&#8217;t help you when others have hours to catch up. I answered the sample ones very quickly, whoo I&#8217;m a the top.. Oh wait, they&#8217;re catching up! I&#8217;m pretty competitive by nature, blame a large family where if you don&#8217;t move quick you lose out on dinner! So I wanted to win and it almost bit me in the rear by rushing too much.</p>
+
+
+
+<p>The 6th day was all a special version of NetWars CTF for the course. This was really a lot of fun, you got to use most of the different tools and ideas from the course and some were definitely tricky. Our team had a quick lead but (not my fault I learned my lesson the day before!) but there was definitely some messy guessing going on so we lost a few points to that. And, like the day before the other teams caught up. It got down to just one question at the end and with four people on the team, two of us wanted one answer the other two wanted another one. We couldn&#8217;t get it wrong, luck (and a fair bit of experience with the type of system in question) was on my side and we put in our final answer with just five minutes left and won by a single point. Big nail biter finish there, but we pulled it out and took home the challenge coin!</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="https://secdan.com/wp-content/uploads/2021/09/460coin3.png" alt="" class="wp-image-55" width="444" height="418" srcset="https://secdan.com/wp-content/uploads/2021/09/460coin3.png 888w, https://secdan.com/wp-content/uploads/2021/09/460coin3-300x282.png 300w, https://secdan.com/wp-content/uploads/2021/09/460coin3-768x722.png 768w" sizes="(max-width: 444px) 100vw, 444px" /></figure>
+
+
+
+<p>The timing was perfect, if not even a month or so late for me, as soon as I got back to the office I found our our internal audit and an outside firm are going to be auditing our whole vulnerability process. I wish I had even a bit more time to implement some of the things I learned but I now have a really good roadmap for the future at my workplace and it should be significantly more advanced than just handing over scan reports.</p>
+
+
+
+<p>Overall the class was really enjoyable and recommended if this is your area. The course prerequisites are pretty general but I&#8217;d suggest a pretty comfortable knowledge of the Windows command line, how to at least get around in a Linux shell and&nbsp; basic understanding of Powershell. I know there isn&#8217;t a lot of complicated Powershell used, but some people had never even seen the verb-noun type logic or the concept of loops so it was likely harder for them.</p>
+
+
+
+<p><del>I can&#8217;t do an exam review on this one as the exam isn&#8217;t written yet. Hopefully it doesn&#8217;t take too long and I can take a shot at it soon!</del></p>
+
+
+
+<p>Edit &#8211; GEVA exam is now live. I took the exam as one of the early testers. It was definitely a different experience taking it months after the course without having access to the OnDemand as I did in the past as a refresher. But, like before I dug into the books and labs, all the information is in there. I created an index and tuned it after taking my practice tests to clean up areas I felt weaker in. I got my same great, roomy cornet seat in the testing area so I could spread out all my stuff and knocked it out!</p>
+
+
+
+<p>As an exam tester you have to wait until the exam is actually going live to get the results, for me,&nbsp; that was a few months process but I tried to forget about it so I didn&#8217;t obsess about it. Right at the time we were told the results would be out, I got the email that I passed. Well, I got two emails, one saying I got the GEVA certification and a second saying I scored high enough to be invited to the SANS Advisory Board!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>SANS SEC504 &#8211; GCIH &#8211; Class and Work Study Review</title>
-		<link>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/</link>
-					<comments>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/#respond</comments>
+		<link>https://secdan.com/sans-sec504-gcih-class-and-work-study-review/</link>
+					<comments>https://secdan.com/sans-sec504-gcih-class-and-work-study-review/#respond</comments>
 		
 		<dc:creator><![CDATA[Daniel]]></dc:creator>
 		<pubDate>Thu, 27 Sep 2018 00:21:00 +0000</pubDate>
 				<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Reviews]]></category>
 		<category><![CDATA[SANS]]></category>
-		<guid isPermaLink="false">http://secdan.com/?p=47</guid>
+		<guid isPermaLink="false">https://secdan.com/?p=47</guid>
 
 					<description><![CDATA[I haven&#8217;t updated in a while, but I wanted to focus on knocking out the GCIH after the course and had a ton of other things going on, so, here you go. I&#8217;ll try to make up for it with an annoying amount of detail. The SANS SEC504 &#8211;&#160;Hacker Tools, Techniques, Exploits, and Incident Handling [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -115,7 +198,7 @@
 <p>Overall it was a really positive experience. Lots of work but totally worthwhile, if your workplace is understanding (they should be, you&#8217;re getting training to do a better job!) and you have the time and the funds, totally recommended.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/feed/</wfw:commentRss>
+					<wfw:commentRss>https://secdan.com/sans-sec504-gcih-class-and-work-study-review/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

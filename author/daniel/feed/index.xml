@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Daniel</title>
-	<atom:link href="http://secdan.com/author/daniel/feed/" rel="self" type="application/rss+xml" />
-	<link>http://secdan.com/</link>
+	<atom:link href="https://secdan.com/author/daniel/feed/" rel="self" type="application/rss+xml" />
+	<link>https://secdan.com/</link>
 	<description></description>
-	<lastBuildDate>Tue, 14 Sep 2021 00:22:07 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Sep 2021 00:32:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,22 +21,225 @@
 	<generator>https://wordpress.org/?v=5.8.1</generator>
 
 <image>
-	<url>http://secdan.com/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
+	<url>https://secdan.com/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
 	<title>Daniel</title>
-	<link>http://secdan.com/</link>
+	<link>https://secdan.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
+		<title>Learning to embrace the audit</title>
+		<link>https://secdan.com/learning-to-embrace-the-audit/</link>
+					<comments>https://secdan.com/learning-to-embrace-the-audit/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Wed, 06 Nov 2019 00:23:00 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://secdan.com/?p=57</guid>
+
+					<description><![CDATA[This is one of those topics that years ago I would have said you&#8217;re crazy to even consider being cool with being audited. I came up in IT through a pharma company and we&#8217;d get HIPAA audits and I&#8217;d have to sit silently next to our regulatory lawyer with a giant book. The other side [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>This is one of those topics that years ago I would have said you&#8217;re crazy to even consider being cool with being audited. I came up in IT through a pharma company and we&#8217;d get HIPAA audits and I&#8217;d have to sit silently next to our regulatory lawyer with a giant book. The other side of the table would ask questions and I&#8217;d whisper to the lawyer, who would translate it into regulatory&#8217;ese and then he&#8217;d share with the other side what he felt was OK for them to know. I learned to never tell an auditor more than they asked and they are under any circumstances not your friend.</p>
+
+
+
+<p>Years later, I&#8217;m in security, and one way or another audit is a really common thing. We have to deal with PCI audits, QSA, etc, so while it&#8217;s a lot more lax than I remember the idea is stuck in my head that you never tell them more than they asked for and even then, scope the response so tightly that they can&#8217;t poke at it.</p>
+
+
+
+<p>The first internal audit I was all braced to button up and try to stonewall the IA team. I sat next to the CIO who blasted them for even suggesting there were problems and I felt like, &#8220;hey, this is pretty much like I remember, lovely&#8230;&#8221; Then, after that super exciting experience I sat down with the auditors and they explained, they&#8217;re not trying to shut us down and fine us, they&#8217;re trying to help the company, the one they also work for. Nice people, I started to come around to the idea of not only working together, but being able to get some benefit in my team from the audit findings.</p>
+
+
+
+<p>Well, months go by and I&#8217;m off to my <a href="http://secdan.com/2019/06/13/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/">SEC460 </a>class on vulnerability assessment and I come back all ready to tweak our internal scanning and vulnerability management process. We make some changes, we are spinning good reports in a bunch of different ways but the remediation part is still out of our hands. No matter how many ways we hand over the data, people just aren&#8217;t getting it. We have management buy in, but it&#8217;s just not going above the director level. People make excuses on why they can&#8217;t patch or change a config, or mostly just ignore it all.</p>
+
+
+
+<p>So we have a few months of just beating our heads against that wall. And then, I hear that our parent company is going to order our IA team to audit our vulnerability management program. They started by bringing in a trainer to teach 20+ auditors how to audit network security. My boss at the time dropped a phone book (remember those?) sized book on my desk after and said she used it for the week long class and comprehended almost none of it. After who knows how much money they spent on training the staff, they realized they were far outside of their technical range and decided they were going to hire a 3rd party to do the scanning and assessment.</p>
+
+
+
+<p>Why wouldn&#8217;t they just use the data we already had? Well, I work at one of the child companies of a larger international company and the parent org wanted all the child companies assessed equally and didn&#8217;t trust the individual inputs. After they burned an exotic super car worth of money hiring an outside firm that found less than we already were internally a few interesting things happened.</p>
+
+
+
+<p>First internal audit was able to highlight that my team was doing pretty well in the assessing, and while they didn&#8217;t want to admit it, we were doing better than the outside company. It&#8217;s not even a brag, we just know our own environment better than they do. But, the most important finding was that they were able to highlight that the issue wasn&#8217;t the security team not finding the problems, we had tons of records for that, but that the other teams weren&#8217;t remediating the problems.</p>
+
+
+
+<p>I walked into an audit meeting with some people far (faaaaar!) above my pay grade who acted very shocked about the reports they were seeing and I was glad to point out that none of this should have been a surprise to them. It seems there was someone along the chain who didn&#8217;t want the Sr management to know about the problem, so the higher level support just wasn&#8217;t happening.</p>
+
+
+
+<p>Suddenly, the idea that these results were going to the board was terrifying for people. I had told them for a long time, but they got used to tuning me out and without a hammer big enough to make people fix things, the most I can do is keep escalating but that only works so much. Sure, they would patch PCI scoped items, but outside of that there was zero fear of consequence of not doing the right thing.</p>
+
+
+
+<p>That CIO who was yelling at the auditors in the first meeting, he was silent. Afterwards we were told &#8220;this all needs to be fixed, I need to know what it&#8217;s going to take!&#8221; Out of nowhere we had resources, because it wasn&#8217;t the security guy telling them there was a problem, it was the audit committee (and in turn the board) who was telling them.</p>
+
+
+
+<p>I don&#8217;t want to say a few teams were given a blank check to clean up, but this added push went further than anything else we had tried before. This year, on one of our fundraising days, I came back to my desk to find a bunch of candy, from the internal audit team, for being so helpful to their work. Talk about a change I never would have anticipated happening a few years ago!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://secdan.com/learning-to-embrace-the-audit/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>SANS SEC460 &#8211; Course Review &#8211; Enterprise Threat and Vulnerability Assessment</title>
+		<link>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/</link>
+					<comments>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 00:20:00 +0000</pubDate>
+				<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[SANS]]></category>
+		<guid isPermaLink="false">https://secdan.com/?p=53</guid>
+
+					<description><![CDATA[I recently was able to take the SANS SEC460 (https://www.sans.org/course/enterprise-threat-vulnerability-assessment) course focused on Threat and Vulnerability Assessment. This is a newer course compared to most of the others that SANS offers so I didn&#8217;t find any actual reviews beforehand other than a friend that did it last year, I figured I&#8217;d throw my opinion out [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I recently was able to take the SANS SEC460 (<a href="https://www.sans.org/course/enterprise-threat-vulnerability-assessment">https://www.sans.org/course/enterprise-threat-vulnerability-assessment</a>) course focused on Threat and Vulnerability Assessment. This is a newer course compared to most of the others that SANS offers so I didn&#8217;t find any actual reviews beforehand other than a friend that did it last year, I figured I&#8217;d throw my opinion out there for what it&#8217;s worth. My workplace has had a slower start in the whole VA space, part of the downside of starting a security department from scratch. We were able to do what was required for compliance and passing audits, but as most people who dig deeper know, there is always a lot more going on than just that. And, as they say in the course, &#8220;if all you&#8217;re doing is running scans and handing over reports you&#8217;re missing most of the vulnerability management process!&#8221;. We already possessed a lot of the tools, but didn&#8217;t really have a solid plan or framework to glue it all together and that was my hope for the course.</p>
+
+
+
+<p>I was able to do this course through the SANS Work Study program (<a href="https://www.sans.org/work-study/">https://www.sans.org/work-study/</a>) and as you can see from my previous experience doing the SEC504 class (<a href="https://secdan.com/2018/09/27/sans-sec504-gcih-class-and-work-study-review/">https://secdan.com/2018/09/27/sans-sec504-gcih-class-and-work-study-review/</a>) I highly recommend this if you can work the schedule and it fits your personality. For me, I love it. The staff was all really friendly and helpful. One of the other facilitators started a chat group while we were there so we were all able to coordinate meals and hanging out which made for a great time and lots of networking too. Overall very positive experience and I look forward to being able to do it again. This course was a reasonable drive away, nice to not have to juggle plane schedules and such, a two hour drive in the morning with no traffic and a bunch of podcasts, not bad at all.</p>
+
+
+
+<p>The course was taught by one of the course authors, Adrien de Beaupre (<a href="https://www.sans.org/instructors/adrien-de-beaupre">https://www.sans.org/instructors/adrien-de-beaupre</a>) so there was clearly nothing lost in translation. It&#8217;s a newer course so there isn&#8217;t an OnDemand course for it yet but they were recording that during my session so I&#8217;m sure so of my goofy questions probably make it into the audio somewhere. Adrien describes himself as &#8220;the sarcastic Canadian&#8221;, which works with me. Whoever said sarcasm is the lowest form of humor can.. Well, let&#8217;s say I don&#8217;t agree. Adrien has a ton of real world experience, as I would expect from any SANS instructor, so any questions anyone had along the way here handled easily.</p>
+
+
+
+<p>The 460 course is somewhere around a light purple team course. You need to know how to find some holes, and how to fix them. Not as deeply technical as some of the higher level courses that SANS offers but the coursework is fitting for that type of job role. Vulnerability management always seems to fall in different laps ranging anywhere from an auditor asking probing questions to&nbsp; someone else exploiting vulnerabilities to validate their findings. The course gives a good breakdown of the whole process, if you&#8217;re expecting just a class on scanning, then you might be better off with something from your scanner vendor, but if you want to learn the whole process, this one is much more fitting.</p>
+
+
+
+<p>SANS has a tendency to avoid focusing on specific vendor tools, because not everyone uses the same tools or can even afford to pay for them. Most management teams wouldn&#8217;t be happy to find you out paid for a course and then you get home and can&#8217;t do anything because the specific tool is out of reach. That logic holds pretty sound here, we used many different tools for scanning and validation from manual checks, to short powershell scripts and some open source tools. The two areas we did use commercial tools were the network and web app scanners. As the instructor said, (obviously paraphrasing) &#8220;we could have had you used OpenVAS, it&#8217;s free, but has everyone really tried scanning 10,000 systems with OpenVAS? You don&#8217;t want to.&#8221; So they settled on Rapid7 Nexpose. I had a bit of an advantage here as I&#8217;ve been using the same tool for years, but at the basic level it&#8217;s also not overly complicated so the instruction that everyone else got didn&#8217;t seem to hold them back at all. For the web application scanning we used Acunetix, I use a different tool at work, but it&#8217;s a web GUI and was pretty straightforward. The bulk of the work in this course is around infrastructure scanning, not web apps. I know there was a question of that during the class, the instruction mentioned they&#8217;re working on a web app version but that course isn&#8217;t available yet. For a lot of the process that you learn, it should be able to be applied to any type of system so it&#8217;s not at all wasted knowledge either way.</p>
+
+
+
+<p>The days were laid out logically with the different steps of the whole process, starting with planning and threat modeling all the way through remediation and reporting.</p>
+
+
+
+<p>A few ideas really stuck out to me during the course, obvious once you hear them but when you have your company blinders on you tend to forget sometimes:</p>
+
+
+
+<ul><li>If you don&#8217;t know have your assets classified, and know what your most high risk systems are, then everything is critical. If you can&#8217;t tell me how important that server is, then I&#8217;m just going to have to safely assume worst case and everything is critical.</li><li>I like to (half-jokingly!) say &#8220;culture&#8221; is like a four letter word sometime. The idea of &#8220;we always did it that way&#8221; can make things like changing big processes and mindsets really complicated. There is definitely a manner in how to best prepare the news and reports of your findings to the different levels of employees. Sr management doesn&#8217;t care about your 1000 page scan report, they want a chart that shows things are getting better, and why. And if they aren&#8217;t, what your plan is to make them better and what help you need to fix that.</li><li>&nbsp;Most people don&#8217;t like to hear their baby is ugly, in the same manner most departments don&#8217;t want to hear the process they&#8217;ve been following is badly flawed. Because of that they will look for anything (ANYTHING!) that is wrong in your report to discount everything you&#8217;re saying. Validation is incredibly important. I once found a subnet that had been ignored for a long time, I scanned it and dropped a report of thousands of critical vulnerabilities on the server team. They checked, found one that was possibly a false positive, they immediately discounted everything in the report, and for quite a few future reports too. My thought process was along the lines of … what even 80% of it is wrong, so you only have hundreds of really terrible things that are publicly accessible?? Their translation was &#8220;we found a mistake, your tool is garbage&#8221;. Don&#8217;t be the boy that cried wolf, some things are going to be missed, but do some basic checks to make sure you are providing valid data.</li></ul>
+
+
+
+<p>On the end of the 5th day we had much lighter lab day and took the last part of the day to get familiar with the NetWars engine. I learned a few things, don&#8217;t rush, wrong answers because you moved too quickly don&#8217;t help you when others have hours to catch up. I answered the sample ones very quickly, whoo I&#8217;m a the top.. Oh wait, they&#8217;re catching up! I&#8217;m pretty competitive by nature, blame a large family where if you don&#8217;t move quick you lose out on dinner! So I wanted to win and it almost bit me in the rear by rushing too much.</p>
+
+
+
+<p>The 6th day was all a special version of NetWars CTF for the course. This was really a lot of fun, you got to use most of the different tools and ideas from the course and some were definitely tricky. Our team had a quick lead but (not my fault I learned my lesson the day before!) but there was definitely some messy guessing going on so we lost a few points to that. And, like the day before the other teams caught up. It got down to just one question at the end and with four people on the team, two of us wanted one answer the other two wanted another one. We couldn&#8217;t get it wrong, luck (and a fair bit of experience with the type of system in question) was on my side and we put in our final answer with just five minutes left and won by a single point. Big nail biter finish there, but we pulled it out and took home the challenge coin!</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="https://secdan.com/wp-content/uploads/2021/09/460coin3.png" alt="" class="wp-image-55" width="444" height="418" srcset="https://secdan.com/wp-content/uploads/2021/09/460coin3.png 888w, https://secdan.com/wp-content/uploads/2021/09/460coin3-300x282.png 300w, https://secdan.com/wp-content/uploads/2021/09/460coin3-768x722.png 768w" sizes="(max-width: 444px) 100vw, 444px" /></figure>
+
+
+
+<p>The timing was perfect, if not even a month or so late for me, as soon as I got back to the office I found our our internal audit and an outside firm are going to be auditing our whole vulnerability process. I wish I had even a bit more time to implement some of the things I learned but I now have a really good roadmap for the future at my workplace and it should be significantly more advanced than just handing over scan reports.</p>
+
+
+
+<p>Overall the class was really enjoyable and recommended if this is your area. The course prerequisites are pretty general but I&#8217;d suggest a pretty comfortable knowledge of the Windows command line, how to at least get around in a Linux shell and&nbsp; basic understanding of Powershell. I know there isn&#8217;t a lot of complicated Powershell used, but some people had never even seen the verb-noun type logic or the concept of loops so it was likely harder for them.</p>
+
+
+
+<p><del>I can&#8217;t do an exam review on this one as the exam isn&#8217;t written yet. Hopefully it doesn&#8217;t take too long and I can take a shot at it soon!</del></p>
+
+
+
+<p>Edit &#8211; GEVA exam is now live. I took the exam as one of the early testers. It was definitely a different experience taking it months after the course without having access to the OnDemand as I did in the past as a refresher. But, like before I dug into the books and labs, all the information is in there. I created an index and tuned it after taking my practice tests to clean up areas I felt weaker in. I got my same great, roomy cornet seat in the testing area so I could spread out all my stuff and knocked it out!</p>
+
+
+
+<p>As an exam tester you have to wait until the exam is actually going live to get the results, for me,&nbsp; that was a few months process but I tried to forget about it so I didn&#8217;t obsess about it. Right at the time we were told the results would be out, I got the email that I passed. Well, I got two emails, one saying I got the GEVA certification and a second saying I scored high enough to be invited to the SANS Advisory Board!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Gone Phishing &#8211; Phishing testing and education</title>
+		<link>https://secdan.com/gone-phishing-phishing-testing-and-education/</link>
+					<comments>https://secdan.com/gone-phishing-phishing-testing-and-education/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Thu, 06 Dec 2018 00:09:00 +0000</pubDate>
+				<category><![CDATA[Learning]]></category>
+		<guid isPermaLink="false">https://secdan.com/?p=51</guid>
+
+					<description><![CDATA[Phishing is a thing most of us are painfully familiar with day to day. It&#8217;s fairly well understood to be the easiest and most common path to a breach. So why is it so easy? It&#8217;s simple, people don&#8217;t pay attention to what they&#8217;re doing most of work day. Is that to say that very [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Phishing is a thing most of us are painfully familiar with day to day. It&#8217;s fairly well understood to be the easiest and most common path to a breach. So why is it so easy? It&#8217;s simple, people don&#8217;t pay attention to what they&#8217;re doing most of work day. Is that to say that very complex phishing attempts would fool almost anyone? Of course they would, but, I&#8217;ve been doing phishing testing at my company for the last few years and in practice it&#8217;s far less complex than most people realize.</p>
+
+
+
+<p>I&#8217;ve worked with a few phishing testing and awareness training vendors, I have books on game theory and social engineering. But, I could make a simple email with the wrong company domain, with a giant tag across the top of the email saying &#8220;This is from external contact, please be cautious of clicking links or opening attachment, WARNING!!&#8221; and fill the body out with a misspelled request to validate your password at crapsite.co.com.xxx.guru/fake-password-stealer.html and I&#8217;ll still get 10%+ of the users handing over their passwords within an hour. Insert mental image of me facepalming myself at my desk here.</p>
+
+
+
+<p>They all get awareness training, we run testing campaigns with education, we have security awareness week with fun prizes. But, once they&#8217;re out of that bubble, it&#8217;s a click party. Even following up with reports from our email security provider for phishing that does get through you can ask the users and they&#8217;ll say, &#8220;but that&#8217;s a vendor of mine&#8221;. When you pull up the email, it&#8217;s nothing close to anyone they deal with, doesn&#8217;t matter, clicking anyway.</p>
+
+
+
+<p>Considering you might really only need one person to click and give away credentials / load your malware / etc, how do you really solve this? If I knew how to get this number down to zero without smashing email servers with a hammer I wouldn&#8217;t be writing a blog post, I&#8217;d be swimming in my Scrooge McDuck money bin.</p>
+
+
+
+<p>How about aiming a little lower? While it pains me to write that, understand it&#8217;s never going to be perfect and just aim for better than yesterday, and eventually, not worse than yesterday. There are some technical controls, but as long as users can get emails from outside, you&#8217;re likely going to deal with this problem, forget it coming from a real vendor that has been compromised, that&#8217;s another ball of wax entirely.</p>
+
+
+
+<p>Ideas that have been helpful for me:</p>
+
+
+
+<ul><li>Banners for external mail</li><li>More training</li><li>Sharing stories of actual cases</li><li>Simply the reporting process</li><li>Positive reinforcement</li><li>Consequences</li></ul>
+
+
+
+<p>A little more detail on the above ideas:</p>
+
+
+
+<ul><li>Banners for external mail &#8211; I touched on this earlier but basically have any email that isn&#8217;t sourced internally from your domain to be tagged with some sort of obvious external tag. Will some people ignore it? Sure they will, but some won&#8217;t, and if you solve a little bit at a time it does add up.</li><li>More training &#8211; Training needs to be interesting and engaging, if all the users have to do is click next 5x and they&#8217;re done for the year. If that&#8217;s the case you might pass compliance but you&#8217;re no more secure than you were before the training.</li><li>Sharing stories of actual cases &#8211; This one didn&#8217;t even occur to me until I was running a tabletop exercise recently and someone from outside IT had the suggestion. They felt through the tabletop they were learning so much and had no idea how real the threats were. Make the stories somewhat generic if you need to so people don&#8217;t get mocked, and don&#8217;t be afraid to share good stories of users catching crafty emails. Everyone loves a pat on the back, we did this recently and sent out a company-wide email newsletter with details and got a lot of positive feedback.</li><li>Simplifying the reporting process &#8211; If a user has a questionable email, how hard is it for them to ask for some help? If they have to call up and admit they made a mistake they are less likely to do it. If they email it to the help desk and never hear back, expect them to never do it again. Many phishing providers (they are also free ones out there) make buttons for most email clients that allow users a one button click to send an email in to be inspected. Bonus points if they click it during a real phishing test and it doesn&#8217;t bother creating the ticket and congratulates the user for a good catch.</li><li>Positive reinforcement &#8211; There is a bit of this sprinkled into the earlier suggestions. But, if people know they can come to you, even if they&#8217;ve clicked and think they&#8217;ve done something wrong, it&#8217;s going to go a lot further in building a relationship and having them learn the right thing than just yelling at them for mistakes. Some people use different types of rewards, know your own company and market and figure out what works, but even just thanking people for reporting issues can work wonders.</li><li>Consequences &#8211; More in the stick than the carrot category, hash consequences for your actions. Not really my favorite way to approach it, but if I have someone who has done training repeatedly, been talked to, explained how it all works and still clicks on everything that is put in front of them, then sometimes you have to work your way up the org chart a bit. I once saw another business unit&#8217;s HR staff fell for a phish and sent all their employee&#8217;s W2s out via email. The user was fired. I found out and immediately went to &#8220;was she trained?&#8221; or even &#8220;why was the email able to be spoofed and passed through?&#8221; line of thought. Extreme consequence, but you can bet that every other person in that department was hawk eyed afterwards. Not my preferred method but that one was far out of my hands.</li></ul>
+
+
+
+<p>I think with any testing you should start simple and grow towards way more complicated with time. Anyone can design a perfect phish that will work on exactly who you target. But, is there a point of it being too difficult? That&#8217;s hard to say, but we recently switched phishing providers and they wanted to do a baseline test. As part of this test they got our internal domain spoofed, which we block normally anyway, and a whitelist which bypassed the external banners. Not surprisingly they got a higher than normal click rate. But, they tweaked the controls enough to present something to the users that normally wasn&#8217;t even possible. They were trained to look at the real domain, the external banner, etc, they did that correctly and then were informed they were wrong. Thankfully that was just a small test and we were able to revert the changes and go for a close lookalike domain and put the banner back on. The results were lower, not as low as I&#8217;d like, but at least controlling the situation got a more predictable result.</p>
+
+
+
+<p>I was once told by an old Cisco SE about an internal phishing test that got him, and I can&#8217;t blame him. He was at work, shopping on Amazon and purchased something. Seconds after the purchase he got a purchase confirmation email from Amazon. They were monitoring the network for specific traffic and triggering phishing emails to those users based on that. He had clicked on the email before it even registered that his work email wasn&#8217;t his registered Amazon account address. But, in a situation like this, just playing the odds, it could happen anyway that you&#8217;ll have a user at a giant corp shopping Amazon at the moment. A few years back I sent out a phishing test email with one of the &#8220;You hit your email quota, click here to increase your mailbox size and continue getting email&#8221; sort of message. It was sent to maybe 6000 users, two of them had actually put in requests to have their real mailbox size increased already and were waiting for the update. You can bet they clicked that link the second that test showed up, I had no idea it would work out that way, but it doesn&#8217;t seem all that unlikely.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://secdan.com/gone-phishing-phishing-testing-and-education/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>SANS SEC504 &#8211; GCIH &#8211; Class and Work Study Review</title>
-		<link>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/</link>
-					<comments>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/#respond</comments>
+		<link>https://secdan.com/sans-sec504-gcih-class-and-work-study-review/</link>
+					<comments>https://secdan.com/sans-sec504-gcih-class-and-work-study-review/#respond</comments>
 		
 		<dc:creator><![CDATA[Daniel]]></dc:creator>
 		<pubDate>Thu, 27 Sep 2018 00:21:00 +0000</pubDate>
 				<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Reviews]]></category>
 		<category><![CDATA[SANS]]></category>
-		<guid isPermaLink="false">http://secdan.com/?p=47</guid>
+		<guid isPermaLink="false">https://secdan.com/?p=47</guid>
 
 					<description><![CDATA[I haven&#8217;t updated in a while, but I wanted to focus on knocking out the GCIH after the course and had a ton of other things going on, so, here you go. I&#8217;ll try to make up for it with an annoying amount of detail. The SANS SEC504 &#8211;&#160;Hacker Tools, Techniques, Exploits, and Incident Handling [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -115,20 +318,20 @@
 <p>Overall it was a really positive experience. Lots of work but totally worthwhile, if your workplace is understanding (they should be, you&#8217;re getting training to do a better job!) and you have the time and the funds, totally recommended.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://secdan.com/sans-sec504-gcih-class-and-work-study-review/feed/</wfw:commentRss>
+					<wfw:commentRss>https://secdan.com/sans-sec504-gcih-class-and-work-study-review/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>There isn&#8217;t enough time in the day!</title>
-		<link>http://secdan.com/there-isnt-enough-time-in-the-day/</link>
-					<comments>http://secdan.com/there-isnt-enough-time-in-the-day/#respond</comments>
+		<link>https://secdan.com/there-isnt-enough-time-in-the-day/</link>
+					<comments>https://secdan.com/there-isnt-enough-time-in-the-day/#respond</comments>
 		
 		<dc:creator><![CDATA[Daniel]]></dc:creator>
 		<pubDate>Wed, 04 Apr 2018 00:04:00 +0000</pubDate>
 				<category><![CDATA[Learning]]></category>
-		<guid isPermaLink="false">http://secdan.com/?p=40</guid>
+		<guid isPermaLink="false">https://secdan.com/?p=40</guid>
 
 					<description><![CDATA[Many of us are drawn to security because it changes all the time and there is never a shortage of new findings. The upside, is also the downside, it changes all the time. I know I read something a few years ago that someone searched all the top&#160;infosec&#160;news sources and&#160;came to the conclusion&#160;that you could [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -171,24 +374,24 @@
 <p>So, sadly I can’t make the day longer than 24 hours, but at least try to use the time you do have productively.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://secdan.com/there-isnt-enough-time-in-the-day/feed/</wfw:commentRss>
+					<wfw:commentRss>https://secdan.com/there-isnt-enough-time-in-the-day/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Free Kali Linux book – Kali Linux Revealed</title>
-		<link>http://secdan.com/free-kali-linux-book-kali-linux-revealed/</link>
-					<comments>http://secdan.com/free-kali-linux-book-kali-linux-revealed/#respond</comments>
+		<link>https://secdan.com/free-kali-linux-book-kali-linux-revealed/</link>
+					<comments>https://secdan.com/free-kali-linux-book-kali-linux-revealed/#respond</comments>
 		
 		<dc:creator><![CDATA[Daniel]]></dc:creator>
 		<pubDate>Wed, 28 Feb 2018 01:03:00 +0000</pubDate>
 				<category><![CDATA[Learning]]></category>
-		<guid isPermaLink="false">http://secdan.com/?p=27</guid>
+		<guid isPermaLink="false">https://secdan.com/?p=27</guid>
 
 					<description><![CDATA[I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p><img loading="lazy" width="208" height="120" class="wp-image-18" style="width: 150px;" src="http://secdan.com/wp-content/uploads/2021/09/kali.png" alt="">I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that they offer that this material is targeted for, I don’t know of the market value / ROI of that cert, but the course and book are free and no reason not to check it out. </p>
+<p><img loading="lazy" width="208" height="120" class="wp-image-18" style="width: 150px;" src="https://secdan.com/wp-content/uploads/2021/09/kali.png" alt="">I came across this a few months ago, it’s not a book on hacking or even how to prep for the PWK / OSCP. But, it’s free, and available from the Kali Linux team themselves, so there is no more accurate place to get information on the distro than them. Note: There is a certification that they offer that this material is targeted for, I don’t know of the market value / ROI of that cert, but the course and book are free and no reason not to check it out. </p>
 
 
 
@@ -199,20 +402,20 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://secdan.com/free-kali-linux-book-kali-linux-revealed/feed/</wfw:commentRss>
+					<wfw:commentRss>https://secdan.com/free-kali-linux-book-kali-linux-revealed/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Should C levels get special treatment?</title>
-		<link>http://secdan.com/should-c-levels-get-special-treatment/</link>
-					<comments>http://secdan.com/should-c-levels-get-special-treatment/#respond</comments>
+		<link>https://secdan.com/should-c-levels-get-special-treatment/</link>
+					<comments>https://secdan.com/should-c-levels-get-special-treatment/#respond</comments>
 		
 		<dc:creator><![CDATA[Daniel]]></dc:creator>
 		<pubDate>Fri, 02 Feb 2018 20:52:00 +0000</pubDate>
 				<category><![CDATA[Rants]]></category>
-		<guid isPermaLink="false">http://secdan.com/?p=30</guid>
+		<guid isPermaLink="false">https://secdan.com/?p=30</guid>
 
 					<description><![CDATA[I’ll get this out of the way first, from a professional employment standpoint, absolutely. If you get an email from the CEO, then sure, anyone would expect you to pay more attention than normal.  But, I’m talking strictly from a security standpoint. I’m sure we’ve all heard the stories about small companies where management feels [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -243,7 +446,7 @@
 <p>/rant&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://secdan.com/should-c-levels-get-special-treatment/feed/</wfw:commentRss>
+					<wfw:commentRss>https://secdan.com/should-c-levels-get-special-treatment/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

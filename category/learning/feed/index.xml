@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title></title>
-	<atom:link href="https://secdan.com/feed/" rel="self" type="application/rss+xml" />
+	<title>Learning</title>
+	<atom:link href="https://secdan.com/category/learning/feed/" rel="self" type="application/rss+xml" />
 	<link>https://secdan.com/</link>
 	<description></description>
-	<lastBuildDate>Wed, 15 Sep 2021 00:32:36 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Sep 2021 00:22:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,72 +22,12 @@
 
 <image>
 	<url>https://secdan.com/wp-content/uploads/2021/09/cropped-cropped-favicon-32x32.png</url>
-	<title></title>
+	<title>Learning</title>
 	<link>https://secdan.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
-		<title>Learning to embrace the audit</title>
-		<link>https://secdan.com/learning-to-embrace-the-audit/</link>
-					<comments>https://secdan.com/learning-to-embrace-the-audit/#respond</comments>
-		
-		<dc:creator><![CDATA[Daniel]]></dc:creator>
-		<pubDate>Wed, 06 Nov 2019 00:23:00 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://secdan.com/?p=57</guid>
-
-					<description><![CDATA[This is one of those topics that years ago I would have said you&#8217;re crazy to even consider being cool with being audited. I came up in IT through a pharma company and we&#8217;d get HIPAA audits and I&#8217;d have to sit silently next to our regulatory lawyer with a giant book. The other side [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>This is one of those topics that years ago I would have said you&#8217;re crazy to even consider being cool with being audited. I came up in IT through a pharma company and we&#8217;d get HIPAA audits and I&#8217;d have to sit silently next to our regulatory lawyer with a giant book. The other side of the table would ask questions and I&#8217;d whisper to the lawyer, who would translate it into regulatory&#8217;ese and then he&#8217;d share with the other side what he felt was OK for them to know. I learned to never tell an auditor more than they asked and they are under any circumstances not your friend.</p>
-
-
-
-<p>Years later, I&#8217;m in security, and one way or another audit is a really common thing. We have to deal with PCI audits, QSA, etc, so while it&#8217;s a lot more lax than I remember the idea is stuck in my head that you never tell them more than they asked for and even then, scope the response so tightly that they can&#8217;t poke at it.</p>
-
-
-
-<p>The first internal audit I was all braced to button up and try to stonewall the IA team. I sat next to the CIO who blasted them for even suggesting there were problems and I felt like, &#8220;hey, this is pretty much like I remember, lovely&#8230;&#8221; Then, after that super exciting experience I sat down with the auditors and they explained, they&#8217;re not trying to shut us down and fine us, they&#8217;re trying to help the company, the one they also work for. Nice people, I started to come around to the idea of not only working together, but being able to get some benefit in my team from the audit findings.</p>
-
-
-
-<p>Well, months go by and I&#8217;m off to my <a href="http://secdan.com/2019/06/13/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/">SEC460 </a>class on vulnerability assessment and I come back all ready to tweak our internal scanning and vulnerability management process. We make some changes, we are spinning good reports in a bunch of different ways but the remediation part is still out of our hands. No matter how many ways we hand over the data, people just aren&#8217;t getting it. We have management buy in, but it&#8217;s just not going above the director level. People make excuses on why they can&#8217;t patch or change a config, or mostly just ignore it all.</p>
-
-
-
-<p>So we have a few months of just beating our heads against that wall. And then, I hear that our parent company is going to order our IA team to audit our vulnerability management program. They started by bringing in a trainer to teach 20+ auditors how to audit network security. My boss at the time dropped a phone book (remember those?) sized book on my desk after and said she used it for the week long class and comprehended almost none of it. After who knows how much money they spent on training the staff, they realized they were far outside of their technical range and decided they were going to hire a 3rd party to do the scanning and assessment.</p>
-
-
-
-<p>Why wouldn&#8217;t they just use the data we already had? Well, I work at one of the child companies of a larger international company and the parent org wanted all the child companies assessed equally and didn&#8217;t trust the individual inputs. After they burned an exotic super car worth of money hiring an outside firm that found less than we already were internally a few interesting things happened.</p>
-
-
-
-<p>First internal audit was able to highlight that my team was doing pretty well in the assessing, and while they didn&#8217;t want to admit it, we were doing better than the outside company. It&#8217;s not even a brag, we just know our own environment better than they do. But, the most important finding was that they were able to highlight that the issue wasn&#8217;t the security team not finding the problems, we had tons of records for that, but that the other teams weren&#8217;t remediating the problems.</p>
-
-
-
-<p>I walked into an audit meeting with some people far (faaaaar!) above my pay grade who acted very shocked about the reports they were seeing and I was glad to point out that none of this should have been a surprise to them. It seems there was someone along the chain who didn&#8217;t want the Sr management to know about the problem, so the higher level support just wasn&#8217;t happening.</p>
-
-
-
-<p>Suddenly, the idea that these results were going to the board was terrifying for people. I had told them for a long time, but they got used to tuning me out and without a hammer big enough to make people fix things, the most I can do is keep escalating but that only works so much. Sure, they would patch PCI scoped items, but outside of that there was zero fear of consequence of not doing the right thing.</p>
-
-
-
-<p>That CIO who was yelling at the auditors in the first meeting, he was silent. Afterwards we were told &#8220;this all needs to be fixed, I need to know what it&#8217;s going to take!&#8221; Out of nowhere we had resources, because it wasn&#8217;t the security guy telling them there was a problem, it was the audit committee (and in turn the board) who was telling them.</p>
-
-
-
-<p>I don&#8217;t want to say a few teams were given a blank check to clean up, but this added push went further than anything else we had tried before. This year, on one of our fundraising days, I came back to my desk to find a bunch of candy, from the internal audit team, for being so helpful to their work. Talk about a change I never would have anticipated happening a few years ago!</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://secdan.com/learning-to-embrace-the-audit/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
 		<title>SANS SEC460 &#8211; Course Review &#8211; Enterprise Threat and Vulnerability Assessment</title>
 		<link>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/</link>
 					<comments>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/#respond</comments>
@@ -403,50 +343,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://secdan.com/free-kali-linux-book-kali-linux-revealed/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Should C levels get special treatment?</title>
-		<link>https://secdan.com/should-c-levels-get-special-treatment/</link>
-					<comments>https://secdan.com/should-c-levels-get-special-treatment/#respond</comments>
-		
-		<dc:creator><![CDATA[Daniel]]></dc:creator>
-		<pubDate>Fri, 02 Feb 2018 20:52:00 +0000</pubDate>
-				<category><![CDATA[Rants]]></category>
-		<guid isPermaLink="false">https://secdan.com/?p=30</guid>
-
-					<description><![CDATA[I’ll get this out of the way first, from a professional employment standpoint, absolutely. If you get an email from the CEO, then sure, anyone would expect you to pay more attention than normal.  But, I’m talking strictly from a security standpoint. I’m sure we’ve all heard the stories about small companies where management feels [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>I’ll get this out of the way first, from a professional employment standpoint, absolutely. If you get an email from the CEO, then sure, anyone would expect you to pay more attention than normal. </p>
-
-
-
-<p>But, I’m talking strictly from a security standpoint. I’m sure we’ve all heard the stories about small companies where management feels they need domain admin access just because they are “the boss”.  When your IT department is two people, then you might not be able to help situations like that.&nbsp;</p>
-
-
-
-<p>This came to me the other day when my team was doing phishing testing and USB drops. First came the phishing, we targeted a few different departments and they were fair game. Typical stuff, HR and finance in this case. One campaign about benefits and another about due invoices, things people have been trained on and something that I would hope for a&nbsp;fairly low&nbsp;click rate and most of them reported to the help desk.&nbsp;</p>
-
-
-
-<p>This prompted a discussion on spear phishing a few of the executives. There is plenty of public data available on most of them that you could create an extremely convincing phishing email. But, we were told they might be upset if we did that.&nbsp;</p>
-
-
-
-<p>The same situation happened with USB drops. We could leave them&nbsp;anywhere, but&nbsp;putting them into an executive’s office was off limits. The strange part is that policy didn’t come from the executives themselves, but from the management below them who felt they would be upset.&nbsp;</p>
-
-
-
-<p>This brings up a problem. The people that might be most targeted are also the people exempt from training and testing, because the people below them fear the consequences of making the top level executives follow the same requirements of everyone else. They shouldn’t be exempt, they should get as much, if not more training, and testing than the standard user base. If an attacker is going to target you, especially if you’re a bigger target, then you shouldn’t get special treatment and a pass.&nbsp;</p>
-
-
-
-<p>/rant&nbsp;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://secdan.com/should-c-levels-get-special-treatment/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

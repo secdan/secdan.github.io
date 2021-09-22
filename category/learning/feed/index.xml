@@ -12,7 +12,7 @@
 	<atom:link href="https://secdan.com/category/learning/feed/" rel="self" type="application/rss+xml" />
 	<link>https://secdan.com/</link>
 	<description></description>
-	<lastBuildDate>Wed, 15 Sep 2021 00:22:35 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 22 Sep 2021 01:22:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,100 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>SANS SEC560 – Course Review – Network Penetration Testing and Ethical Hacking</title>
+		<link>https://secdan.com/sans-sec560-course-review-network-penetration-testing-and-ethical-hacking/</link>
+					<comments>https://secdan.com/sans-sec560-course-review-network-penetration-testing-and-ethical-hacking/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel]]></dc:creator>
+		<pubDate>Wed, 22 Sep 2021 01:22:04 +0000</pubDate>
+				<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[SANS]]></category>
+		<guid isPermaLink="false">https://secdan.com/?p=62</guid>
+
+					<description><![CDATA[I&#8217;ve had to recreate most of my old blog posts and am doing a static export to github pages, so bear with me here! I was torn on what kind of cheesy hoodie image to use here, so I went full bore and stuck with Hackers the movie. It doesn&#8217;t hold a candle to Sneakers [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I&#8217;ve had to recreate most of my old blog posts and am doing a static export to github pages, so bear with me here! I was torn on what kind of cheesy hoodie image to use here, so I went full bore and stuck with Hackers the movie. It doesn&#8217;t hold a candle to Sneakers but that&#8217;s a debate for another time.</p>
+
+
+
+<p>I took this <a href="https://www.sans.org/cyber-security-courses/network-penetration-testing-ethical-hacking/">SANS SEC560 course</a> in person in NYC in Feb 2020, shortly after the world turned upside down. This review is super delayed, trying to recreate things here and play catch up. It was the last class I was able to take in person, or I guess the last trip of any sort of I took in person minus some family camping. So while it&#8217;s still fresh enough in my head, the last 18 months have felt like 18 years of what we&#8217;ve learned to semi-affectionately call COVID months which have felt somewhere between football minutes and full stoppage of time. </p>
+
+
+
+<p>I was able to do this course through the SANS work study program, which I&#8217;ve detailed in my <a href="https://secdan.com/sans-sec504-gcih-class-and-work-study-review/">504 review here</a>, but I really do enjoy. Got to hang out with a lovely group of fellow nerds (and I mean that in the most complimentary way!) and get some much needed social time away from home. None of us realized at the time that we&#8217;d spend most of the next year at home of course. </p>
+
+
+
+<p>My instructor was <a href="https://www.sans.org/profiles/jorge-orchilles/">Jorge Orchilles</a> who did a really fantastic job with a very upbeat, energetic teaching style that kept all of us engaged through some long days in class. We had a TA as well, Fred (who I can&#8217;t seem to find an instructor profile for), who swapped spots back and forth with Jorge so we got different perspectives on the same material and the both worked very well together and the feedback throughout the class was overall very positive. One part of doing the work study program involves doing all the ratings and reviews so you get a very first hand read on all the other students&#8217; experiences. </p>
+
+
+
+<p>Overall, I really enjoyed the course. There was definitely some overlap in days 1 and 2 with recon and scanning with previous courses but to different degrees. Always good to get a refresh and some different points of view. As it got further into the week with exploitation and pivoting it was all new material which was very interesting content. </p>
+
+
+
+<p>I&#8217;m looking over the current day 5 material, it looks like it&#8217;s slightly updated adding content on Azure. I&#8217;d love to have seen some of that in my class too, I can understand why they added it, as I&#8217;m deep into some Azure cleanup and security right now in my job and any material that shows that is helpful.</p>
+
+
+
+<p>In true SANS course fashion, the day 6 CTF was a nail biter but a total blast. A group of people I had hung out with a lot, went to dinner with, were all set to have me as part of their CTF team but were full on the last day. Bummer as they were all professional pentesters! Needless to say, they beat everyone else to a well earned challenge coin but we came reasonably close and got to test out a lot of the attacks we had learned about during the week and had a ton of fun in the process. </p>
+
+
+
+<p>Shortly after I took this class my workplace had a surprise red team engagement from our parent company. Most of the people involved in the many (MANY!) meetings that came out of that months long engagement really couldn&#8217;t follow most of the findings all that well. I felt this course gave me a much stronger position to understand the attacks, assist in the remediation and even test some of attacks that were used in order to validate that everyone was back in order after.</p>
+
+
+
+<p>As I had the OnDemand course access this was really helpful to review everything after. We were in a stressful time right after the class ended and it would have been easy to just push everything to the side and try to focus on things like stockpiling toilet paper and shelf stable foods. It was nice to have a productive distraction then and good reinforcement of all the materials that are fire hosed at you for a week in class. </p>
+
+
+
+<p>As I mentioned earlier, shortly after I got home, pretty much everything, everywhere, shut down. So I was unsure how I was going to be able to take my GPEN exam, fortunately within a few months the online proctor testing option became available. I&#8217;ve taken tests like that in college, and even an Azure exam more recently, but nothing where I had a whole stack of books. Definitely a different experience but I was glad to have the opportunity to take the exam even with everything shut down. As always, use your practice tests, they&#8217;re the same style as the real ones and extremely valuable in preparing for your real test. </p>
+
+
+
+<p>But, proud to say, even sitting up in my 3rd floor tiny home office &#8220;testing center&#8221; I officially became GPEN certified! </p>
+
+
+
+<p> This was an interesting course for me overall as I&#8217;m more a blue teamer than red, but I&#8217;ve been able to take on some purple responsibility at work and that&#8217;s been really satisfying to play a little bit of both. The one difference with this one is day to day I&#8217;m not actively pentesting, but developing the skill further after the class and trying to retain the skillset is definitely something you&#8217;re going to want to do. There are far more red than blue types of online labs so fortunately you don&#8217;t have to search far to find valuable content. </p>
+
+
+
+<p>To keep up and later expand the skills I&#8217;d recommend checking out https://tryhackme.com/, they have paths you can follow with tons of content  in all sorts of different areas. Very much worth the $10 a month for a premium subscription. Also, can&#8217;t forget https://www.hackthebox.eu/ as well, they have a VIP subscription and now an academy model too but I don&#8217;t have personal experience with their training side so I can&#8217;t really give input on that one. </p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://secdan.com/sans-sec560-course-review-network-penetration-testing-and-ethical-hacking/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>SANS SEC460 &#8211; Course Review &#8211; Enterprise Threat and Vulnerability Assessment</title>
 		<link>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/</link>
 					<comments>https://secdan.com/sans-sec460-course-review-enterprise-threat-and-vulnerability-assessment/#respond</comments>
@@ -45,7 +139,7 @@
 
 
 
-<p>I was able to do this course through the SANS Work Study program (<a href="https://www.sans.org/work-study/">https://www.sans.org/work-study/</a>) and as you can see from my previous experience doing the SEC504 class (<a href="https://secdan.com/2018/09/27/sans-sec504-gcih-class-and-work-study-review/">https://secdan.com/2018/09/27/sans-sec504-gcih-class-and-work-study-review/</a>) I highly recommend this if you can work the schedule and it fits your personality. For me, I love it. The staff was all really friendly and helpful. One of the other facilitators started a chat group while we were there so we were all able to coordinate meals and hanging out which made for a great time and lots of networking too. Overall very positive experience and I look forward to being able to do it again. This course was a reasonable drive away, nice to not have to juggle plane schedules and such, a two hour drive in the morning with no traffic and a bunch of podcasts, not bad at all.</p>
+<p>I was able to do this course through the SANS Work Study program (<a href="https://www.sans.org/work-study/">https://www.sans.org/work-study/</a>) and as you can see from my previous experience doing the SEC504 class (<a href="https://secdan.com/sans-sec504-gcih-class-and-work-study-review/">https://secdan.com/sans-sec504-gcih-class-and-work-study-review/</a>) I highly recommend this if you can work the schedule and it fits your personality. For me, I love it. The staff was all really friendly and helpful. One of the other facilitators started a chat group while we were there so we were all able to coordinate meals and hanging out which made for a great time and lots of networking too. Overall very positive experience and I look forward to being able to do it again. This course was a reasonable drive away, nice to not have to juggle plane schedules and such, a two hour drive in the morning with no traffic and a bunch of podcasts, not bad at all.</p>
 
 
 
